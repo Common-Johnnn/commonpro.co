@@ -106,7 +106,7 @@ header {
   color: #1d4ed8; }
 
 .hero-section {
-  background-image: url("dist/assets/image/hero-bg.png");
+  background-image: url("assets/image/hero-bg.png");
   background-position: center center;
   background-size: 95rem 45rem;
   display: flex;
