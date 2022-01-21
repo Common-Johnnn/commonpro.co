@@ -1,0 +1,148 @@
+/* COLORS */
+/* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Gotham-Black", sans-serif;
+  src: url(dist/assets/font/Gotham-Black/Gotham-Black.ttf); }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif; }
+
+section {
+  padding: 7.5rem 10rem; }
+
+h1 {
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #1d4ed8; }
+
+h2 {
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #111827; }
+
+h3 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #111827; }
+
+h4 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #111827; }
+
+p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: -0.02em;
+  color: #111827; }
+
+.sm-pr {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+  letter-spacing: -0.02em;
+  color: #6b7280; }
+
+header nav .nav-right .nav-cta button {
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 300ms ease; }
+
+/*** HOME PAGE ***/
+header {
+  padding: 1.25rem 5rem;
+  height: 80px; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header nav .nav-logo {
+      width: 9.75rem;
+      height: 2.5rem; }
+      header nav .nav-logo img {
+        width: 9.75rem;
+        height: 2.5rem; }
+    header nav .nav-links,
+    header nav .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem; }
+    header nav .nav-right .nav-cta button {
+      padding: 0.625rem 1.5rem;
+      height: 40px;
+      background: #1d4ed8;
+      color: #ffffff; }
+      header nav .nav-right .nav-cta button:hover {
+        background: #1e40af; }
+
+.nav-link a:hover {
+  color: #1d4ed8; }
+
+.hero-section {
+  background-image: url("/dist/assets/image/hero-bg.png");
+  background-position: center center;
+  background-size: 95rem 45rem;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  max-height: 45rem;
+  padding: 11.25rem 10rem 15rem 10rem; }
+  .hero-section h1 span {
+    font-family: "Gotham Black", sans-serif;
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.01em;
+    -webkit-text-stroke: 2px #111827; }
+  .hero-section p span {
+    color: #1d4ed8;
+    font-style: italic;
+    font-weight: 500; }
+
+/*** 404 PAGE ***/
+.body-404 {
+  overflow: hidden; }
+
+.container-404 {
+  display: flex;
+  align-items: center; }
+  .container-404 .img-404,
+  .container-404 img {
+    width: 100%;
+    max-width: 760px;
+    height: 100%;
+    max-height: 786px; }
+  .container-404 .content-404 {
+    padding: 0 120px; }
+    .container-404 .content-404 p:first-child {
+      color: #1d4ed8;
+      font-weight: 600;
+      padding-bottom: 20px; }
+    .container-404 .content-404 p {
+      color: #6b7280;
+      padding-bottom: 20px; }
